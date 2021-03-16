@@ -29,4 +29,4 @@ EXPOSE 8443
 
 ENTRYPOINT [ "/opt/jboss/tools/docker-entrypoint.sh" ]
 
-CMD ["-b", "0.0.0.0"]
+CMD ["-b", "0.0.0.0", "-b", "::1"]
